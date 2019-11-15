@@ -29,12 +29,19 @@ div {
   float: left;
   margin: 1% 0;
   width: 70%;
-  padding: 35px 40px;
+  padding: 30px 40px;
 }
 
 h1 {
    font-size: 2.5em;
-   margin: 0;
+   margin: 4% 0;
+   text-align: left;
+}
+
+p {
+  margin: 5% 0;
+  padding-top: 10px;
+  text-align: center;
 }
 
  .baku {
@@ -73,33 +80,45 @@ h1 {
   display: block;
 }
 
+.preview {
+  margin: 3% 0;
+}
+
 @media screen and (min-width: 575px){
 .baku {
   background-size: cover;
-  float:left;
+  float:right;
   width: 40%;
-  margin: 5%;
+  margin: 1%;
+  margin-right: 9%;
+  height: 200px;
 }
 
 .london {
   background-size: cover;
-  float:right;
+  float:left;
   width: 40%;
-  margin: 5%;
+  margin: 1%;
+  margin-left: 9%;
+  height: 200px;
 }
 
 .madrid {
   background-size: cover;
   float:right;
   width: 40%;
-  margin: 5%;
+  margin: 1%;
+  margin-right: 9%;
+  height: 200px;
 }
 
 .rome {
   background-size: cover;
   float: left;
   width: 40%;
-  margin: 5%;
+  margin: 1%;
+  margin-left: 9%;
+  height: 200px;
 }
 
 @media screen and (min-width: 991px){
@@ -107,26 +126,28 @@ h1 {
   background-size: cover;
   float:left;
   width: 15%;
-  margin:1%;
+  margin: 0 2% 0 17%;
 }
 
 .london {
   background-size: cover;
-  float:right;
+  float:left;
   width: 15%;
-  margin:1%;
+  margin: 0;
+  margin-left: 0 0 0 17%;
 }
 
 .madrid {
   background-size: cover;
   float:right;
   width: 15%;
-  margin:1%;
+  margin: 0 17% 0 2%;
 }
 
 .rome {
   background-size: cover;
-  float:left;
+  float:right;
   width: 15%;
-  margin:1%;
+  margin: 0;
+  margin-right: 0 2% 0 1%;
 }
